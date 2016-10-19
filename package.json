@@ -1,0 +1,24 @@
+{
+	"name": "html-css-javascript-module2-solution",
+	"version": "1.0.0",
+	"description": "Coursera solution learning",
+	"main": "index.js",
+	"dependencies": {
+		"angular": "^1.5.8",
+		"bootstrap": "^3.3.7"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kritsanasak/html-css-javascript-module2-solution.git"
+	},
+	"author": "Kritsanasak Poungchan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kritsanasak/html-css-javascript-module2-solution/issues"
+	},
+	"homepage": "https://github.com/kritsanasak/html-css-javascript-module2-solution#readme"
+}

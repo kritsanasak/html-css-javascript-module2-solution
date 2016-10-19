@@ -1,0 +1,156 @@
+/* Base style*/
+* {
+    -webkit-box-sizing: border-box;
+    -mozilla-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+
+header {
+    position: relative;
+}
+
+#mainpage {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 1%;
+    width: 96%;
+}
+
+nav h1 {
+    position: relative;
+    ;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/*.menuOne {
+    width: 31.33%;
+}
+
+.menuTwo {
+    width: 31.33%;
+}
+
+.menuThree {
+    width: 31.33%;
+}*/
+
+.menu {
+    position: relative;
+    float: left;
+    margin: 10px 1%;
+    padding: 0 1%;
+    background-color: #cccccc;
+    border: 3px solid black;
+}
+
+.menu .menuHead {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-color: black;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    padding: 2px 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.menu p.menuContent {
+    padding-top: 40px;
+}
+
+.one {
+    background-color: sandybrown;
+}
+
+.two {
+    background-color: tomato;
+}
+
+.three {
+    background-color: yellowgreen;
+}
+
+/*very Larges devices view*/
+
+@media screen and (min-width: 992px) {
+	.menuOne {
+	    width: 31.33%;
+	}
+
+	.menuTwo {
+	    width: 31.33%;
+	}
+
+	.menuThree {
+	    width: 31.33%;
+	}
+
+}
+
+
+/*Medium devices screen*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menuOne {
+        width: 48%;
+    }
+    .menuTwo {
+        width: 48%;
+    }
+    .menuThree {
+        width: 100%;
+    }
+    .menu .menuHead {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-color: black;
+        border-left-style: solid;
+        border-bottom-style: solid;
+        border-left-width: 3px;
+        border-bottom-width: 3px;
+        padding: 2px 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
+
+
+/*Small devices screen*/
+
+@media screen and (max-width: 767px) {
+    .menuOne {
+        width: 100%;
+    }
+    .menuTwo {
+        width: 100%;
+    }
+    .menuThree {
+        width: 100%;
+    }
+    .menu .menuHead {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-color: black;
+        border-left-style: solid;
+        border-bottom-style: solid;
+        border-left-width: 3px;
+        border-bottom-width: 3px;
+        padding: 2px 20px;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+}
